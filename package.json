@@ -31,10 +31,6 @@
     "webpack-cli": "^4.10.0",
     "xorshift": "^1.2.0"
   },
-  "files": [
-    "dist/*.js",
-    "dist/*.js.map"
-  ],
   "scripts": {
     "build-prod": "webpack --mode production && npm types",
     "build-dev": "webpack --mode development",
